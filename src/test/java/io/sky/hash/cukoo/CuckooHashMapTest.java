@@ -26,7 +26,7 @@ public class CuckooHashMapTest {
   @Test
   public void insert() throws Exception {
 //定义布谷鸟散列
-    CuckooHashMap<String> cuckooHashTable = new CuckooHashMap<String>(hashFactory, 5);
+    CuckooHashMap<String> cuckooHashTable = new CuckooHashMap<>(hashFactory, 5);
     String[] strs = {"abc","aba","abcc","abca"};
     //插入
     for (int i = 0; i < strs.length; i ++){
