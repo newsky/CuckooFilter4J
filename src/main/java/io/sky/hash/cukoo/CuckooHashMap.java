@@ -15,7 +15,7 @@ import java.util.Random;
  */
 public class CuckooHashMap<T> {
   //定义最大装填因子为0.4
-  private static final double MAX_LOAD = 0.4;
+  private static final double MAX_LOAD = 0.5;
   //定义rehash次数达到一定时，进行
   private static final int ALLOWED_REHASHES = 1;
   //定义默认表的大小
