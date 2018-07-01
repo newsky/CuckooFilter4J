@@ -1,10 +1,9 @@
 package io.sky.hash.cukoo;
 
+import io.sky.util.HashFactory;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by sky

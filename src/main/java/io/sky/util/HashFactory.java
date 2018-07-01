@@ -1,10 +1,10 @@
-package io.sky.hash.cukoo;
+package io.sky.util;
 
 /**
  * Created by sky
  * on 2018/6/30.
  */
-interface HashFactory<T> {
+public interface HashFactory<T> {
   //根据which来选择散列函数，并返回hash值
   int hash(T x, int which);
 

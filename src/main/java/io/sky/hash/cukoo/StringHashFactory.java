@@ -1,10 +1,12 @@
 package io.sky.hash.cukoo;
 
+import io.sky.util.HashFactory;
+
 /**
  * Created by sky
  * on 2018/6/30.
  */
-public class StringHashFactory implements HashFactory<String>{
+public class StringHashFactory implements HashFactory<String> {
   //根据which选取不同的散列函数
   @Override
   public int hash(String x, int which) {

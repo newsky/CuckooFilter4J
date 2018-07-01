@@ -1,5 +1,7 @@
 package io.sky.hash.cukoo;
 
+import io.sky.util.HashFactory;
+
 import java.util.Random;
 
 /**
