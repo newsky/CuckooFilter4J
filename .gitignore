@@ -1,5 +1,5 @@
 *.class
-
+.settings
 # maven central
 settings.xml
 
